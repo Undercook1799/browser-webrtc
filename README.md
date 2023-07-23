@@ -15,4 +15,5 @@ A few things:
 - Dark Mode
 - Changed Font Style
 - Centered Text
+- Minor wording & grammar changes
 - ???
