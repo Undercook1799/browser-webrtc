@@ -207,7 +207,7 @@ function checkOS() {
     var unknown = '';
     var os = unknown;
     var clientStrings = [{
-            s: 'Windows 10',
+            s: 'Windows 10/11',
             r: /(Windows 10.0|Windows NT 10.0)/
         },
         {
@@ -374,7 +374,7 @@ function checkSpeed() {
     }
 
     function InitiateSpeedDetection() {
-        ShowProgressMessage("Loading the image, please wait...");
+        ShowProgressMessage("Testing, please wait...");
         window.setTimeout(MeasureConnectionSpeed, 1);
     };
 
@@ -408,7 +408,7 @@ function checkSpeed() {
             var speedMbps = (speedKbps / 1024).toFixed(2);
             ShowProgressMessage([
                 speedBps + " bps",
-                speedKbps + " kbps",
+                speedKbps + " Kbps",
                 speedMbps + " Mbps"
             ]);
         }
